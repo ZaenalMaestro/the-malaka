@@ -4,6 +4,8 @@
 
 Slicing UI Design The Malaka merupakan project iseng-iseng untuk melatih skill Frond-End.
 
+Live demo hasil slicing [themalaka.netlify.app](https://themalaka.netlify.app)
+
 Teknologi yang digunakan:
 - HTML
 - CSS
