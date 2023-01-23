@@ -1,0 +1,450 @@
+@media screen and (max-width: 576px) {
+   .writer .writer-bar{
+      left: 50px;
+      bottom: 20px;
+   }
+}
+@media screen and (max-width: 768px) {
+   nav, section, footer{
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+
+   .header-bg-shape{
+      max-width: 90%;
+   }
+
+   .header-bg-1{
+   top: 100px;
+   left: -70px;
+   }
+   .header-bg-2{
+      top: 180px;
+      left: -150px;
+   }
+
+   nav .btn-download{
+      display: none;
+   }
+   nav .nav-items{
+      position: fixed;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      row-gap: 30px;
+      top: 0;
+      right: -100%;
+      width: 70%;
+      height: 100%;
+      background-color: #2D3347;
+      z-index: 99999;
+      font-size: 18px;
+      box-shadow: -10px 5px 15px rgba(0, 0, 0, .3);
+      transition: .3s;
+   }
+
+   nav .nav-items .nav-item a{      
+      color: #caccce;
+   }
+   nav .nav-items .nav-item a.active{      
+      color: #fff;
+   }
+   nav .nav-items .nav-item a.btn-download-mobile{   
+      color: #2D3347;
+   }
+   nav .nav-items.active{
+      right: 0;
+   }
+   
+   .nav-items .close{
+      position: absolute;
+      top: 50px;
+      right: 50px;
+   }
+
+   .book-preview-carousel img.cover,
+   .carousel-container .swiper-button-next-unique,
+   .carousel-container .swiper-button-prev-unique{
+         z-index: 9;
+      }
+}
+@media screen and (max-width: 992px) {
+   .hero{
+      flex-direction: column;
+      padding-top: 40px;
+   }
+
+   .hero-image{
+      max-width: 100%;
+   }
+
+   .hero-image img{
+      max-width: 100%;      
+      transform: scale(1);
+   }
+
+   /* book */
+   .book-info{
+      flex-direction: column;
+   }
+
+   .book-info .cards{
+      flex-direction: column;
+      row-gap: 70px;
+   }
+   .book-info .card-img img{
+      width: 100%;
+   }
+
+   /* author */
+   .author .author-content{
+      flex-direction: column;
+   }
+
+   /* benefit */
+   .benefit-content{
+      flex-direction: column;
+   }
+
+   .benefit-image{
+      max-width: 100%;
+   }
+
+   .benefit-image img{
+      max-width: 100%;
+   }
+
+   .benefit-2-contents{
+      flex-direction: column;
+      row-gap: 50px;
+   }
+
+   .benefit-2-img{
+      max-width: 100%;
+   }
+   .benefit-2-img img{
+      max-width: 100%;      
+      transform: scale(1);
+   }
+
+   /* book preview */   
+   .book-preview-content{
+      max-width: 100%;
+   }
+   .book-preview-content .book-preview-content-desc{
+      max-width: 100%;
+   }
+
+   .book-preview-carousel{
+      max-width: 100%;
+      flex-direction: column;
+   }
+
+   .carousel-container{
+      max-width: 100%;
+   }
+   .carousel-container .swiper{
+      max-width: 100%;
+      margin-left: 0;
+      overflow: hidden;
+   }
+   .carousel-container .swiper-slide{
+      max-width: 100%;
+   }
+   .carousel-container .swiper-slide img{
+      max-width: 100%;
+   }
+
+   .carousel-container .swiper-button-prev-unique{
+      left: 0;
+      transition: .2s;
+   } 
+   .carousel-container .swiper-button-next-unique{
+      right: 0;
+      transition: .2s;
+      width: 100px;
+      height: 100px;
+   } 
+   .carousel-container .swiper-button-next-unique::after,
+   .carousel-container .swiper-button-prev-unique::after{
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 15px;
+      background-image: url(/asset/navigation.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 70px;
+      height: 70px;
+   }
+
+   .carousel-container .swiper-button-prev-unique::after{
+      transform: scaleX(-1);
+   }
+
+
+   /* price */
+
+   .price .cards{
+      flex-direction: column;
+      padding: 20px;
+      row-gap: 30px;
+   }
+
+
+   .price-header,
+   .price-footer{
+      min-height: 200px;
+      max-height: 200px;
+   }
+
+   .price-header{
+      background-image: url(/asset/price-header.png);
+      background-position: top right;
+   }
+   .price-footer{
+      background-image: url(/asset/price-footer.png);
+      background-position: bottom left;
+   }
+
+   .price-header img,
+   .price-footer img{
+      display: none;
+   }
+
+   .writer{
+      flex-direction: column;
+   }
+
+   .writer-images{
+      max-width: 100%;
+   }
+
+   .writer-images > img{
+      max-width: 100%;
+   }
+
+   .testimonial{
+      flex-direction: column;
+      padding: 100px 20px;
+      row-gap: 10px;
+   }
+
+   .testimonial-cards{
+      position: relative;
+      max-width: 100%;
+      margin-top: 50px;
+   }
+
+   .testimonial-cards .swiper-slide .testimonial-card{
+      width: 100%;
+      height: 100%;
+   }
+
+   
+   .testimonial-btn-prev{
+      left: 0;
+   }
+   .testimonial-btn-next{
+      right: 0;
+   }
+
+   .testimonial-btn-prev::after,
+   .testimonial-btn-next::after{
+      content: '';
+      top: -20px;
+      left: -10px;
+      width: 60px;
+      height: 60px;
+   }
+
+   .footer{
+      padding-top: 100px;
+      padding-bottom: 100px;
+   }
+
+   .footer-content,
+   .footer-service{
+      flex-direction: column;
+      row-gap: 30px;
+      justify-content: center;
+      text-align: center;
+   }
+
+   .footer-content .footer-desc{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      margin: auto;
+   }
+}
+
+@media screen and (min-width: 577px) {
+   nav, section, footer{
+      padding-left: 30px;
+      padding-right: 30px;
+   }
+
+   /* hero */
+   .hero-content-tittle{
+      max-width: 100%;
+   }
+
+   .hero-content-desc{
+      max-width: 75%;
+   }
+
+   .footer-service{
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+   }
+
+   .footer-logo{
+      max-width: 100%;
+   }
+}
+
+@media screen and (min-width: 768px) {
+   .btn-download-mobile, .close, .open-sidebar{
+      display: none;
+   }
+
+   .book-info .cards{
+      flex-wrap: wrap;
+      row-gap: 50px;
+   }
+   .book-info .card-img img{
+      max-width: 100%;
+   }
+
+   .author-content{
+      row-gap: 50px;
+   }
+
+   .author-info{
+      max-width: 100%;
+   }
+
+   .benefit-content{
+      flex-direction: column;
+   }
+
+   .benefit-image{
+      order: 1;
+   }
+   .benefit-list{
+      order: 2;
+   }
+   .benefit-2-contents{
+      flex-direction: column;
+      row-gap: 50px;
+   }
+
+   .benefit-2-img img{
+      display: block;
+      margin: auto;
+   }
+
+   .footer-service{
+      flex-wrap: wrap;
+   }
+
+   .footer-logo p{
+      max-width: 100%;
+   }
+}
+
+@media screen and (min-width: 992px){
+   .hero-image{
+      max-width: 100%;
+   }
+
+   .hero-image img{
+      max-width: 100%;      
+      transform: scale(1);
+   }
+
+   .book-info .cards{
+      flex-direction: row;
+      flex-wrap: nowrap;
+   }
+
+   .cover{
+      width: 500px;
+   }
+
+   .benefit-content,
+   .benefit-2-contents{
+      flex-direction: row;
+      column-gap: 50px;
+   }
+
+   .benefit-image{
+      order: 2;
+   }
+   .benefit-list{
+      order: 1;
+   }
+
+   .carousel-container{
+      max-width: 600px;
+   }
+
+
+   .price .cards{
+      padding: 0 30px;
+   }
+
+   .testimonial{
+      padding-bottom: 100px;
+   }
+
+   .testimonial-cards{
+      position: relative;
+      max-width: 100%;
+      margin-top: 50px;
+   }
+   .testimonial-cards .swiper-slide{
+      max-width: 370px;
+   }
+
+   .testimonial-cards .swiper-slide .testimonial-card{
+      width: 100%;
+      height: 100%;
+   }
+
+   .footer-buttons{
+      min-width: 400px;
+      justify-content: flex-end;
+   }
+
+   .footer-logo{
+      max-width: 400px;
+   }
+}
+
+@media screen and (min-width: 1200px) {
+   .hero-image img{
+      position: relative;
+      top: 60px;
+      max-width: 100%;
+      transform: scale(1.3);
+      left: -50px;
+   }
+
+   .testimonial{
+      padding-bottom: 450px;
+   }
+   .testimonial-cards{
+      position: absolute;
+      max-width: 105%;
+      column-gap: 30px;
+      bottom: 100px;
+      flex-wrap: wrap;   
+   }
+   .testimonial-cards .swiper-slide{
+      max-width: 385px;
+   }
+}

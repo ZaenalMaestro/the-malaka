@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/asset/remixicon/fonts/remixicon.css"/>
+   <title>The Malaka</title>
+   <link rel="stylesheet" href="/plugins/swiperjs/swiper.css"/>
+   <link rel="stylesheet" href="/css/style.css"/>
+   <link rel="stylesheet" href="/css/responsisve.css"/>
+
+
+</head>
+<body>
+   <!-- header -->
+   <div class="header">
+      <div class="header-bg-wrapper">
+         <div class="header-bg container">
+            <img src="/asset/header-bg1.png" alt="header-bg1.png" class="header-bg-shape header-bg-1">
+            <img src="/asset/header-bg2.png" alt="header-bg3.png" class="header-bg-shape header-bg-2">
+            <img src="/asset/header-bg3.png" alt="header-bg3.png" class="header-bg-shape header-bg-3">
+         </div>
+      </div>
+      <!-- nav -->
+      <nav class="container d-flex">
+         <div class="nav-logo">
+            <img src="/asset/logo.png" alt="logo.png">
+            <span>The Malaka</span>
+         </div>
+
+         <ul class="nav-items d-flex">
+            <li class="nav-item"><a href="#">Top</a></li>
+            <li class="nav-item"><a href="#for-everyone">For Everyone</a></li>
+            <li class="nav-item"><a href="#benefit">Benefit</a></li>
+            <li class="nav-item"><a href="#preview">Preview</a></li>
+            <li class="nav-item"><a href="#penulis">Writer</a></li>
+            <li class="nav-item">
+               <a href="#" class="btn-download-mobile" onclick="event.preventDefault()">Download</a>
+               <i class="ri-close-line ri-2x close"></i>
+            </li>
+         </ul>
+
+         <i class="ri-menu-line ri-2x open-sidebar"></i>
+         <a href="#" class="btn-download" onclick="event.preventDefault()">Download</a>
+      </nav>
+      <!-- end nav -->
+
+      <!-- hero -->
+      <section class="hero container d-flex">
+         <div class="hero-content">
+            <h2 class="hero-content-tittle">
+               Sebuah framework CSS untuk developer yang memiliki phobia terhadap CSS
+            </h2>
+
+            <p class="hero-content-desc">
+               Buku ini akan mengajarkan kamu utility-first pada css dan diakhiri dengan membangun sebuah website yang responsive dengan Tailwind CSS.
+            </p>
+
+            <div class="hero-button d-flex">
+               <a href="" class="btn-buy">Beli Sekarang</a>
+
+               <div class="hero-download-info d-flex">
+                  <i class="ri-download-2-line ri-lg download-icon"></i>
+
+                  <div class="download">
+                     <h4 class="tittle">Sudah Terjual</h4>
+                     <span class="download-count">501,234+</span>
+                  </div>
+               </div>
+            </div>
+
+            <div class="hero-tech">
+               <h3 class="strip-tittle-gray">Teknologi yang digunakan</h3>
+               <div class="hero-tech-logo">
+                  <figure class="html-logo">
+                     <img src="/asset/Group-1.png" alt="html">
+                     <figcaption>HTML</figcaption>
+                  </figure>
+                  <figure class="css-logo">
+                     <img src="/asset/Frame.png" alt="css">
+                     <figcaption>CSS</figcaption>
+                  </figure>
+                  <figure class="mozila-logo">
+                     <img src="/asset/Frame-4.png" alt="mozila">
+                     <figcaption>MOZILA</figcaption>
+                  </figure>
+                  <figure class="sublime-logo">
+                     <img src="/asset/image 3.png" alt="sublime">
+                     <figcaption>SUBLIME</figcaption>
+                  </figure>
+                  <figure class="terbedit-logo">
+                     <img src="/asset/Frame-1.png" alt="terbedit">
+                     <figcaption>TrebEdit</figcaption>
+                  </figure>
+                  <figure class="nodejs-logo">
+                     <img src="/asset/Frame-2.png" alt="nodejs">
+                     <figcaption>NODE JS</figcaption>
+                  </figure>
+                  <figure class="yarn-logo">
+                     <img src="/asset/Frame-3.png" alt="yarn">
+                     <figcaption>YARN</figcaption>
+                  </figure>
+                  <figure class="npm-logo">
+                     <img src="/asset/Group.png" alt="npm">
+                     <figcaption>NPM</figcaption>
+                  </figure>
+               </div>
+            </div>
+         </div>
+         <div class="hero-image">
+            <img src="/asset/tailwind-book.png" alt="">
+         </div>
+      </section> 
+      <!-- end hero -->
+   </div>
+   <!-- end header -->
+
+   <!-- book info -->
+   <section class="book-info container d-flex" id="for-everyone">
+      <div class="book-desc-1">
+         <h3 class="strip-tittle-blue">buku ini untuk siapa</h3>
+         <p class="desc-lg dark">Buku yang cocok dibaca untuk front-end dan back-end, bahkan UI designer!</p>
+      </div>
+      <div class="book-desc-2">
+         <p class="book-desc-md">
+            Buku ini bukan hanya untuk front-end developer yang ingin meningkatkan skill, buku ini juga cocok untuk back-end developer dan UI designer agar dapat menulis style tanpa harus menulis kode CSS dan tanpa mengandalkan front-end developer!
+         </p>
+      </div>
+
+      <div class="cards d-flex">
+         <div class="card">
+            <div class="card-img">
+               <img src="/asset/card1.png" alt="card1.png">
+            </div>
+            <div class="card-content">
+               <h3 class="card-content-title">Utility-First Framework</h3>
+               <p class="card-content-desc">
+                  Tailwind hadir dengan konsep utility-first. Utility-first artinya banyak class-class kecil yang bisa digabung untuk menjadi sebuah UI.
+               </p>
+            </div>
+         </div>
+         <div class="card">
+            <div class="card-img">
+               <img src="/asset/card2.png" alt="card2.png">
+            </div>
+            <div class="card-content">
+               <h3 class="card-content-title">Tailwind JIT Engine</h3>
+               <p class="card-content-desc">
+                  JIT engine akan men-generate utility-class yang kita gunakan saja. Ini akan membuat pengalaman pengembangan semakin baik.
+               </p>
+            </div>
+         </div>
+         <div class="card">
+            <div class="card-img">
+               <img src="/asset/card3.png" alt="card3.png">
+            </div>
+            <div class="card-content">
+               <h3 class="card-content-title">Unopinionated-Framework</h3>
+               <p class="card-content-desc">
+                  Tailwind tidak memiliki pra-desain komponen apapun, ini membuat desain website yang kita buat menjadi unik.
+               </p>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- end book info -->
+   
+   <!-- author -->
+   <section class="author">
+      <div class="author-content container d-flex">
+         <div class="author-info">
+            <div class="author-desc-1">
+               <h3 class="strip-tittle-white">buku ini untuk siapa</h3>
+               <p class="desc-lg white author-desc-lg">Kata Pengantar Dari Penulis Buku</p>
+               <hr class="line">
+            </div>
+
+            <div class="author-desc-2 d-flex">
+               <div class="author-img">
+                  <img src="/asset/author_3.png" alt="author_3.png">
+               </div>
+               <div class="author-bio">
+                  <h3>Zaenal</h3>
+                  <p>@zaenal_mst</p>
+               </div>
+            </div>
+         </div>
+
+         <div class="author-desc">
+            <p>
+               "Tailwind sangat memungkinkan kamu untuk membangun sebuah desain website yang unik dan tanpa kamu perlu menulis kode CSS sedikitpun. Mungkin kamu akan berpikir bahwa kamu akan membutuhkan waktu yang lebih lama ketika membangun sebuah website dengan utility-first framework ketimbang dengan framework UIkit. Ya, benar. Karena kamu harus memikirkan desain dan mengimplementasikan desain tersebut dari awal sendiri. Namun, kamu perlu ingat manfaat-manfaat yang diberikan oleh utility-first framework, sehingga kamu dapat mempertimbangkannya. Dalam buku ini, kita akan mempelajari framework Tailwind CSS. Mulai dari konsep, workflow, hingga membuat sebuah website responsive dengan TailwindCSS. Buku ini tidak untuk semua orang, setidaknya kamu memahami cara mengoperasikan komputer, memahami HTML, memahami CSS, atau bisa dibilang kamu sudah pernah membangun website sebelumnya dan ingin mempelajari hal baru untuk meningkatkan skill."
+            </p>
+         </div>
+      </div>
+   </section>
+   <!-- end author info -->
+
+   <!-- book benefit -->
+   <section class="book-benefit" id="benefit">
+      <div class="benefit-content container d-flex">
+         <div class="benefit-list">
+            <h3 class="strip-tittle-blue">MANFAAT BUKU</h3>
+            <h3 class="desc-lg dark">Manfaat yang kamu dapatkan ketika membeli buku Tailwind CSS ini</h3>
+            <p>
+               "Buku itu seperti cermin: kalau yang berkaca padanya adalah seorang yang bodoh, engkau tak bisa berharap yang terpantul adalah seorang yang jenius." - J.K Rowling
+            </p>
+
+            <ul class="benefit-list-items">
+               <li class="list-item d-flex">
+                  <img src="/asset/check.png" alt="check png">
+                  <p>
+                     Buku ini cocok untuk seorang yang ingin memperdalam front-end development agar tidak hanya sekadar Bootstrap
+                  </p>
+               </li>
+               <li class="list-item d-flex">
+                  <img src="/asset/check.png" alt="check png">
+                  <p>
+                     Buku ini ditulis berdasarkan dari dokumentasi Tailwind CSS langsung, agar meminimalisir terjadinya miskonsepsi
+                  </p>
+               </li>
+               <li class="list-item d-flex">
+                  <img src="/asset/check.png" alt="check png">
+                  <p>
+                     Sangat ramah untuk back-end developer yang phobia terhadap CSS dan mudah dipahami bagi UI designer
+                  </p>
+               </li>
+               <li class="list-item d-flex">
+                  <img src="/asset/check.png" alt="check png">
+                  <p>
+                     Studi kasus membangun sebuah website responsive dengan Tailwind CSS tanpa ngoding CSS
+                  </p>
+               </li>
+            </ul>
+         </div>
+         <div class="benefit-image">
+            <img src="/asset/image6.png" alt="image6.png">
+            <div class="benefit-image-info d-flex">
+               <div class="benefit-image-info-item">
+                  <h3>19</h3>
+                  <p>Jumlah Chapter</p>
+               </div>
+               <div class="benefit-image-info-item">
+                  <h3>253</h3>
+                  <p>Jumlah Halaman</p>
+               </div>
+               <div class="benefit-image-info-item">
+                  <h3>60</h3>
+                  <p>Hari Menulis</p>
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- end book benefit -->
+
+   <!-- benefit 2 -->
+   <section class="benefit-2">
+      <div class="benefit-2-contents container d-flex">
+         <div class="benefit-2-img">
+            <img src="/asset/benefit2.png" alt="benefit2.png">
+         </div>
+
+         <div class="benefit-2-content">
+            <h3 class="strip-tittle-blue">selain itu</h3>
+            <h3 class="desc-lg">
+               Buku dengan studi kasus nyata, juga komunitas yang ramah
+            </h3>
+            <p>
+               Buku ini diakhiri dengan membangun website yang responsive dengan Tailwind. Selain itu kamu juga kamu dapat bergabung ke komunitas untuk bertanya ketika mengalami kesulitan.
+            </p>
+
+            <div class="card d-flex">
+               <img src="/asset/layout.png" alt="layout.png">
+               <div class="card-content">
+                  <h3 class="card-title blue">live demo project</h3>
+                  <p>
+                     Lihat live demo project yang akan kamu buat diakhir buku ini.
+                  </p>
+               </div>
+               <img src="/asset/arrow-right.png" alt="arrow-right.png" class="btn-arrow">
+            </div>
+            <div class="card d-flex">
+               <img src="/asset/message-square.png" alt="message-square.png">
+               <div class="card-content">
+                  <h3 class="card-title blue">Dukungan komunutas</h3>
+                  <p>
+                     Sebuah server Discord berisi teman-teman yang akan membantu kamu.
+                  </p>
+               </div>
+               <img src="/asset/arrow-right.png" alt="arrow-right.png" class="btn-arrow">
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- end benefit 2 -->
+
+   <!-- book preveiew -->
+   <section class="book-preview" id="preview">
+      <div class="book-preview-contents container">
+         <div class="book-preview-content">
+            <a href="#" class="btn-preview">pratinjau</a>
+            <h3 class="desc-lg">
+               Sebelum membeli, kamu dapat melihat beberapa halaman pratinjau isi di dalam buku ini
+            </h3>
+            <p class="book-preview-content-desc">
+               Klik pada gambar halaman di sebelah kanan buku untuk melihat lebih detail halaman buku tersebut dan membaca isinya.
+            </p>
+         </div>
+
+      </div>
+
+      <div class="book-preview-carousel container d-flex">
+         <img src="/asset/cover-book.png" alt="cover-book.png" class="cover">
+         <div class="carousel-container">
+            <div class="swiper book-slider-prev">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                        <img src="/asset/book-text.png" alt="book-text.png">
+                  </div>
+                  <div class="swiper-slide">
+                        <img src="/asset/book-text.png" alt="book-text.png">
+                  </div>
+                  <div class="swiper-slide">
+                        <img src="/asset/book-text.png" alt="book-text.png">
+                  </div>
+                  <div class="swiper-slide">
+                        <img src="/asset/book-text.png" alt="book-text.png">
+                  </div>
+                  <div class="swiper-slide">
+                        <img src="/asset/book-text.png" alt="book-text.png">
+                  </div>
+                  <div class="swiper-slide">
+                        <img src="/asset/book-text.png" alt="book-text.png">
+                  </div>
+                  <div class="swiper-slide">
+                        <img src="/asset/book-text.png" alt="book-text.png">
+                  </div>
+                  <div class="swiper-slide">
+                        <img src="/asset/book-text.png" alt="book-text.png">
+                  </div>
+               </div>
+               <div class="swiper-pagination"></div>
+            </div>
+            <div class="swiper-button-prev-unique btn-navigate"></div>
+            <div class="swiper-button-next-unique btn-navigate"></div>
+         </div>
+
+      </div>
+   </section>
+   <!-- end book preveiew -->
+
+   <!-- price -->
+   <div class="price-header">
+      <img src="/asset/price-header.png" alt="price-header.png">
+   </div>
+   <section class="price">
+      <div class="price-container container d-flex">
+         <div class="price-content">
+            <a href="#" class="btn-price" onclick="event.preventDefault()">harga buku</a>
+            <h3 class="desc-lg">
+               Kamu dapat membeli buku fisik atau buku elektronik untuk dibaca di perangkat kamu
+            </h3>
+            <p class="price-content-desc">
+               Dilarang memperjualbelikan atau memperbanyak tanpa seizin penulis. Hak cipta dilindungi undang-undang.
+            </p>
+         </div>
+
+         <div class="cards d-flex">
+            <div class="card">
+               <div class="card-title">Buku Digital/</div>
+               <h3 class="card-price desc-lg">Rp 100.000</h3>
+               <ul class="card-lists">
+                  <li class="list d-flex">
+                     <img src="/asset/check.png" alt="">
+                     <span>Buku lengkap</span>
+                  </li>
+                  <li class="list d-flex">
+                     <img src="/asset/check.png" alt="">
+                     <span>Akses secara digital</span>
+                  </li>
+                  <li class="list d-flex">
+                     <img src="/asset/check-1.png" alt="">
+                     <span>Buku fisik</span>
+                  </li>
+                  <li class="list d-flex">
+                     <img src="/asset/check.png" alt="">
+                     <span>Mendapat pembaruan</span>
+                  </li>
+                  <li class="list d-flex">
+                     <img src="/asset/check.png" alt="">
+                     <span>Konsultasi</span>
+                  </li>
+                  <li class="list d-flex">
+                     <img src="/asset/check.png" alt="">
+                     <span>Dapat diunduh</span>
+                  </li>
+                  <li class="list d-flex">
+                     <img src="/asset/check.png" alt="">
+                     <span>Buku lengkap</span>
+                  </li>
+               </ul>
+               <a href="#" class="card-btn-buy">beli sekarang</a>
+            </div>
+            <div class="card">
+               <div class="card-title">Buku Fisik</div>
+               <h3 class="card-price desc-lg">Rp 185.000</h3>
+               <ul class="card-lists">
+                  <li class="list d-flex">
+                     <img src="/asset/check.png" alt="">
+                     <span>Buku lengkap</span>
+                  </li>
+                  <li class="list d-flex">
+                     <img src="/asset/check-1.png" alt="">
+                     <span>Akses secara digital</span>
+                  </li>
+                  <li class="list d-flex">
+                     <img src="/asset/check.png" alt="">
+                     <span>Buku fisik</span>
+                  </li>
+                  <li class="list d-flex">
+                     <img src="/asset/check-1.png" alt="">
+                     <span>Mendapat pembaruan</span>
+                  </li>
+                  <li class="list d-flex">
+                     <img src="/asset/check.png" alt="">
+                     <span>Konsultasi</span>
+                  </li>
+                  <li class="list d-flex">
+                     <img src="/asset/check.png" alt="">
+                     <span>Dapat diunduh</span>
+                  </li>
+                  <li class="list d-flex">
+                     <img src="/asset/check.png" alt="">
+                     <span>Buku lengkap</span>
+                  </li>
+               </ul>
+               <a href="#" class="card-btn-buy">beli sekarang</a>
+            </div>
+            <div class="card">
+               <div class="card-title">Buku Digital + Fisik</div>
+               <h3 class="card-price desc-lg">Rp 250.000</h3>
+               <ul class="card-lists">
+                  <li class="list d-flex">
+                     <img src="/asset/check.png" alt="">
+                     <span>Buku lengkap</span>
+                  </li>
+                  <li class="list d-flex">
+                     <img src="/asset/check.png" alt="">
+                     <span>Akses secara digital</span>
+                  </li>
+                  <li class="list d-flex">
+                     <img src="/asset/check.png" alt="">
+                     <span>Buku fisik</span>
+                  </li>
+                  <li class="list d-flex">
+                     <img src="/asset/check.png" alt="">
+                     <span>Mendapat pembaruan</span>
+                  </li>
+                  <li class="list d-flex">
+                     <img src="/asset/check.png" alt="">
+                     <span>Konsultasi</span>
+                  </li>
+                  <li class="list d-flex">
+                     <img src="/asset/check.png" alt="">
+                     <span>Dapat diunduh</span>
+                  </li>
+                  <li class="list d-flex">
+                     <img src="/asset/check.png" alt="">
+                     <span>Buku lengkap</span>
+                  </li>
+               </ul>
+               <a href="#" class="card-btn-buy">beli sekarang</a>
+            </div>
+         </div>
+
+         <div class="notice">
+            <p>
+               *Buku digital akan dikirimkan ke alamat email kamu
+            </p><br>
+            <p>
+               *Buku fisik dikirim 7 hari setelah pemesanan
+            </p>
+         </div>
+      </div>
+   </section>
+   <div class="price-footer">
+      <img src="/asset/price-footer.png" alt="price-footer.png">
+   </div>
+   <!-- end price -->
+
+   <!-- writer -->
+   <section class="writer container d-flex" id="penulis">
+      <div class="writer-images">
+         <img src="/asset/penulis-bg.png" alt="penulis-bg.png" class="writer-img-bg">
+         <img src="/asset/penulis.png" alt="penulis.png" class="writer-img">
+         <div class="writer-bar">
+            <h3 class="writer-nama">Muhammad Nauval Azhar</h3>
+            <span class="writer-social">@mhdnauvalazhar</span>
+         </div>
+      </div>
+      <div class="writer-content">
+         <h3 class="writer-tittle strip-tittle-blue">Penulis buku</h3>
+         <h3 class="writer-tittle-2 desc-lg">Tak kenal maka tak kenal. Berkenalan dengan penulis buku ini</h3>
+         <p class="writer-desc">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos nisi, eius ipsum numquam ut animi voluptatibus dolorum. Consequatur, perspiciatis quidem! Cumque quisquam soluta dolorem ab explicabo, sapiente quam consequatur dolores quo ipsa iste officiis amet vero nostrum, possimus provident consequuntur iusto. Voluptatum cupiditate pariatur sit eum nemo commodi! Nobis repudiandae delectus perferendis animi porro officiis totam tempora expedita accusantium aut optio suscipit, ducimus et omnis quos obcaecati impedit possimus. Mollitia ab corporis eos. Fuga quia distinctio magnam dolores repudiandae dignissimos nemo adipisci placeat illo corrupti, maiores perferendis odit eligendi vitae sequi maxime? Quibusdam at! Possimus 
+         </p>
+      </div>
+   </section>
+   <!-- end writer -->
+
+   <!-- testimonial -->
+   <div class="testimonial container d-flex">
+      <div class="testimonial-tittle">
+         <h3 class="strip-tittle-blue">testimonial</h3>
+         <h3 class="desc-lg">Apa kata orang-orang yang membaca buku ini</h3>
+      </div>
+      <div class="testimonial-content">
+         <p class="testimonial-desc">
+            Kalau seandainya kamu belum percaya dengan buku ini maka tidak apa-apa, karena yang patut kamu percayai adalah tuhan. Tapi, mungkin beberapa ulasan ini bisa membangkitka 
+         </p>
+      </div>
+
+      <div class="testimonial-cards d-flex">
+         <div class="swiper testimonial-slider">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide">
+                  <div class="testimonial-card">
+                     <p class="testimonial-card-desc">
+                        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab harum beatae nobis aliquam porro. Tenetur perferendis repudiandae at optio veniam."
+                     </p>
+                     <div class="user d-flex">
+                        <div class="user-profile">
+                           <img src="/asset/author_3.png" alt="author_3.png">
+                        </div>
+                        <div class="user-desc">
+                           <h3 class="name">Ahmad Saugi</h3>
+                           <span class="job">Mahasiswa</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="swiper-slide">
+                  <div class="testimonial-card">
+                     <p class="testimonial-card-desc">
+                        "Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                     </p>
+                     <div class="user d-flex">
+                        <div class="user-profile">
+                           <img src="/asset/author_3.png" alt="author_3.png">
+                        </div>
+                        <div class="user-desc">
+                           <h3 class="name">Didik Sugiharto</h3>
+                           <span class="job">Front-end Enginer</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               
+               <div class="swiper-slide">
+                  <div class="testimonial-card">
+                     <p class="testimonial-card-desc">
+                        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab harum beatae nobis aliquam porro. Tenetur perferendis repudiandae at optio veniam."
+                     </p>
+                     <div class="user d-flex">
+                        <div class="user-profile">
+                           <img src="/asset/author_3.png" alt="author_3.png">
+                        </div>
+                        <div class="user-desc">
+                           <h3 class="name">Lutfi hanafiah Ramadhan</h3>
+                           <span class="job">IT Support</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="swiper-slide">
+                  <div class="testimonial-card">
+                     <p class="testimonial-card-desc">
+                        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab harum beatae nobis aliquam porro. Tenetur perferendis repudiandae at optio veniam."
+                     </p>
+                     <div class="user d-flex">
+                        <div class="user-profile">
+                           <img src="/asset/author_3.png" alt="author_3.png">
+                        </div>
+                        <div class="user-desc">
+                           <h3 class="name">Ahmad Saugi</h3>
+                           <span class="job">Mahasiswa</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               
+               <div class="swiper-slide">
+                  <div class="testimonial-card">
+                     <p class="testimonial-card-desc">
+                        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab harum beatae nobis aliquam porro. Tenetur perferendis repudiandae at optio veniam."
+                     </p>
+                     <div class="user d-flex">
+                        <div class="user-profile">
+                           <img src="/asset/author_3.png" alt="author_3.png">
+                        </div>
+                        <div class="user-desc">
+                           <h3 class="name">Lutfi hanafiah Ramadhan</h3>
+                           <span class="job">IT Support</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="swiper-slide">
+                  <div class="testimonial-card">
+                     <p class="testimonial-card-desc">
+                        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab harum beatae nobis aliquam porro. Tenetur perferendis repudiandae at optio veniam."
+                     </p>
+                     <div class="user d-flex">
+                        <div class="user-profile">
+                           <img src="/asset/author_3.png" alt="author_3.png">
+                        </div>
+                        <div class="user-desc">
+                           <h3 class="name">Ahmad Saugi</h3>
+                           <span class="job">Mahasiswa</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-pagination"></div>
+         </div>
+         <!-- navigation slider -->
+         <div class="testimonial-btn-prev btn-slider"></div>
+         <div class="testimonial-btn-next btn-slider"></div>
+      </div>
+   </div>
+   <!-- end testimonial -->
+
+   <!-- buy book -->
+   <section class="buy-book container d-flex">
+      <a href="#" class="btn-preview" onclick="event.preventDefault()">Beli buku</a>
+      <h3 class="desc-lg">Anda ingin segera memesan buku ini?</h3>
+      <p class="buy-book-desc">
+         Otak kita butuh asupan nutrisi juga, tidak hanya perut saja
+      </p>
+
+      <div class="buy-book-content d-flex">
+         <div class="book-sell d-flex">
+            <i class="ri-download-line download-icon"></i>
+
+            <div class="book-sell-desc">
+               <span>Sudah terjual</span>
+               <h3>501,234+</h3>
+            </div>
+         </div>
+
+         <a href="#" class="btn-buy book-buy buy-book-btn" onclick="event.preventDefault()">
+            Beli sekarang <i class="ri-arrow-right-circle-line ri-2x"></i>
+         </a>
+      </div>
+
+   </section>
+   <!-- end buy book -->
+
+   <footer class="footer">
+      <div class="footer-container container">
+         <div class="footer-content d-flex">
+            <div class="footer-desc">
+               <h3 class="desc-lg">Sudah siap meningkatkan skill kamu?</h3>
+               <p>Mulai belajar hari ini di Mutinity, atau dapatkan jawaban atas pertanyaan kamu dihalaman bantuan.</p>
+            </div>
+
+            <div class="footer-buttons d-flex">
+               <a href="" class="footer-btn btn-service">Pusat Bantuan</a>
+               <a href="" class="footer-btn btn-register">Mendaftar</a>
+            </div>
+         </div>
+         
+
+         <div class="footer-service d-flex">
+            <div class="footer-logo">
+               <img src="/asset/logo.png" alt="logo/png">
+               <h3>The Malaka</h3>
+               <p>Malaka adalah situs penyedia kursus ilmu komputer berbahasa indonesia, mulai dari pengembangan hina desain grafis</p>
+            </div>
+
+            <div class="footer-product">
+               <h3>Product</h3>
+               <ul>
+                  <li>Course</li>
+                  <li>Books</li>
+                  <li>Freebies</li>
+                  <li>Classes</li>
+               </ul>
+            </div>
+
+            <div class="footer-company">
+               <h3>Company</h3>
+               <ul>
+                  <li>About Us</li>
+                  <li>Contact</li>
+                  <li>Privace Police</li>
+                  <li>Terms of Service</li>
+                  <li>Help</li>
+               </ul>
+            </div>
+
+            <div class="footer-get-in-touch">
+               <h3>get in touch</h3>
+               <ul>
+                  <li>Twitter</li>
+                  <li>Facebook</li>
+                  <li>Dribble</li>
+               </ul>
+            </div>
+         </div>
+
+         <div class="copyright">
+            <span>copyright <i class="ri-copyright-line"></i> <span class="year"></span> - design nauval</span>
+         </div>
+      </div>
+
+   </footer>
+
+   <script src="/plugins/swiperjs/swiper.js"></script>
+   <script src="/js/script.js"></script>
+</body>
+</html>
